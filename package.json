@@ -1,0 +1,26 @@
+{
+  "devDependencies": {
+    "@fitbit/sdk": "~5.0.0"
+  },
+  "fitbit": {
+    "appUUID": "47e0cc07-e73b-47a5-bb9e-e807394a7c5f",
+    "appType": "clockface",
+    "appDisplayName": "screenfetch clockface",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#8bc34a",
+    "requestedPermissions": [
+      "access_heart_rate",
+      "access_activity"
+    ],
+    "buildTargets": [
+      "atlas",
+      "vulcan"
+    ],
+    "i18n": {
+      "en-US": {
+        "name": "screenfetch clockface"
+      }
+    },
+    "defaultLanguage": "en-US"
+  }
+}
